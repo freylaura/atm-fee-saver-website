@@ -1,0 +1,14 @@
+/*font-family: 'Bree Serif', serif; HEADING
+font-family: 'Poppins', sans-serif; PARAGRAF */
+
+body {
+  background-color: brown;
+}
+
+h1 {
+  font-family: "Bree Serif", serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
