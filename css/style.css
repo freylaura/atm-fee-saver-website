@@ -1,14 +1,18 @@
-/*font-family: 'Bree Serif', serif; HEADING
-font-family: 'Poppins', sans-serif; PARAGRAF */
 
-body {
-  background-color: brown;
-}
+:root {
+  --primary-font: "Bree Serif", serif;
+  --secondary-font: "Poppins", sans-serif;
 
-h1 {
-  font-family: "Bree Serif", serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary-font);
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--secondary-font);
 }
