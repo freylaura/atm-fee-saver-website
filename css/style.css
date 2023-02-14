@@ -16,3 +16,35 @@ h6 {
 body {
   font-family: var(--secondary-font);
 }
+
+.heading {
+  text-align: center;
+  padding: 70px;
+  background-color: var(--primary-color);
+}
+
+.heading h1 {
+  font-weight: 400;
+  color: #fff;
+}
+
+.background-nav {
+  background-color: var(--primary-color);
+}
+.heading-logo {
+  width: 18%;
+  height: auto;
+}
+
+.google-pic {
+  display: flex;
+  width: 30%;
+  height: auto;
+}
+.apple-pic {
+  display: flex;
+
+  width: 20%;
+  height: auto;
+  border-radius: 4px;
+}
