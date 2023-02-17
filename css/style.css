@@ -53,3 +53,11 @@ active {
   max-height: 400px;
   padding-left: 200px;
 }
+.small-info {
+  padding-bottom: 10px;
+}
+footer {
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: 10px 0;
+}
