@@ -29,127 +29,159 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg background-nav border">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"> ATM fee saver</a>
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container-fluid pe-3">
+        <a class="navbar-brand" href="#"
+          ><img src="/img/atmfeelogo.png" alt="" class="logo img-fluid" />ATM
+          fee saver</a
+        >
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active ps-4" aria-current="page" href="#"
-              >Home</a
-            >
-            <a class="nav-link" href="#">About Us</a>
-            <a class="nav-link" href="#">Terms of Use</a>
-            <a class="nav-link" href="#">Privacy Police</a>
-            <a class="nav-link" href="#">Contact Us</a>
-          </div>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Terms of Use</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-    <div class="heading">
-      <h1>
-        ATM Fee saver - Find the lowest fees when you´re travelling abroad
-      </h1>
+    <div class="main-text pt-4 pb-4">
+      <h4 class="text-center">
+        Do you travel interantionally to a foreign country and pay lots of fees
+        to local ATMs, just to withdraw your own money?
+      </h4>
+      <p class="text-center">
+        ATM Fee Saver mobile app helps you find local ATMs in a foreign country
+        that charge the lowest fees* to withdraw cash,<br />
+        when you use your non-local debit card.
+      </p>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-md-6">
             <img
-              src="/img/downloadontheappstore.jpg"
-              class="apple-pic img-fluid rounded"
+              src="img/downloadontheappstore.jpg"
+              alt="appstore"
+              class="apple-pic img-fluid rounded float-end d-none d-sm-block"
             />
           </div>
-          <div class="col-sm-6">
+          <div class="col-md-6">
             <img
-              src="/img/getinongoogleplay.jpg"
-              class="google-pic img-fluid rounded"
+              src="img/getinongoogleplay.jpg"
+              alt="googlestore"
+              class="google-pic img-fluid rounded float-start d-none d-sm-block"
             />
           </div>
         </div>
       </div>
     </div>
-    <h4 class="text-center mt-5">
-      Do you travel inerantionoally to a foreign country and pay lots of fees to
-      local ATMs, just to withdraw your own money?
-    </h4>
-    <p class="text-center">
-      ATM Fee Saver mobile app helps you find local ATMs in a foreign country
-      that charge the lowest fees* to withdraw cash, when you use your non-local
-      debit card.
-    </p>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-6">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Asia</th>
-                <th scope="col">Europe & Africa</th>
-                <th scope="col">Latin America</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="opacity-75">Cambodida</td>
-                <td class="opacity-75">France</td>
-                <td class="opacity-75">Bolivia</td>
-              </tr>
-              <tr>
-                <td class="opacity-75">India</td>
-                <td class="opacity-75">Germany</td>
-                <td class="opacity-75">Ecudador</td>
-              </tr>
-              <tr>
-                <td class="opacity-75">Indonesia</td>
-                <td class="opacity-75">Ireland</td>
-                <td class="opacity-75">Costa Rica</td>
-              </tr>
-              <tr>
-                <td class="opacity-75">Japan</td>
-                <td class="opacity-75">Italy</td>
-                <td class="opacity-75">Colombia</td>
-              </tr>
-              <tr>
-                <td class="opacity-75">Malaysia</td>
-                <td class="opacity-75">Turkey</td>
-                <td class="opacity-75">Mexico</td>
-              </tr>
-              <tr>
-                <td class="opacity-75">Thailand</td>
-                <td class="opacity-75">United Kingdom</td>
-                <td class="opacity-75">Peru</td>
-              </tr>
-              <tr>
-                <td class="opacity-75">Vietnam</td>
-                <td class="opacity-75">Morocco</td>
-                <td class="opacity-75">Argentina (<small>soon</small>)</td>
-              </tr>
-              <tr>
-                <td class="opacity-75"></td>
-                <td class="opacity-75">Spain (<small>soon</small>)</td>
-                <td class="opacity-75">Brazil(<small>soon</small>)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="col-6">
-          <img
-            src="/img/fullphonescreenshot.png"
-            alt="picofthephoneschreenapp"
-            class="img-fluid main-pic"
-            width="35%"
-          />
+    <div class="border">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-6">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-header" scope="col">Asia</th>
+                  <th class="table-header" scope="col">Europe & Africa</th>
+                  <th class="table-header" scope="col">Latin America</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="opacity-75">Cambodida</td>
+                  <td class="opacity-75">France</td>
+                  <td class="opacity-75">Bolivia</td>
+                </tr>
+                <tr>
+                  <td class="opacity-75">India</td>
+                  <td class="opacity-75">Germany</td>
+                  <td class="opacity-75">Ecudador</td>
+                </tr>
+                <tr>
+                  <td class="opacity-75">Indonesia</td>
+                  <td class="opacity-75">Ireland</td>
+                  <td class="opacity-75">Costa Rica</td>
+                </tr>
+                <tr>
+                  <td class="opacity-75">Japan</td>
+                  <td class="opacity-75">Italy</td>
+                  <td class="opacity-75">Colombia</td>
+                </tr>
+                <tr>
+                  <td class="opacity-75">Malaysia</td>
+                  <td class="opacity-75">Turkey</td>
+                  <td class="opacity-75">Mexico</td>
+                </tr>
+                <tr>
+                  <td class="opacity-75">Thailand</td>
+                  <td class="opacity-75">United Kingdom</td>
+                  <td class="opacity-75">Peru</td>
+                </tr>
+                <tr>
+                  <td class="opacity-75">Vietnam</td>
+                  <td class="opacity-75">Morocco</td>
+                  <td class="opacity-75">Argentina (<small>soon</small>)</td>
+                </tr>
+                <tr>
+                  <td class="opacity-75"></td>
+                  <td class="opacity-75">Spain (<small>soon</small>)</td>
+                  <td class="opacity-75">Brazil(<small>soon</small>)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-6">
+            <img
+              src="/img/fullphonescreenshot.png"
+              alt="picofthephoneschreenapp"
+              class="img-fluid main-pic d-none d-sm-block"
+            />
+          </div>
         </div>
       </div>
+      <div class="small-info text-center mt-4">
+        <small class="small-info-text opacity-75">
+          *ATM Fee Saver provides info on “ATM usage fees” — Fee of a local ATM
+          to provide cash withdrawal service, to a foreign or overseas debit
+          card holder.<br />
+          a.k.a ATM usage fee, ATM operator fee, ATM service fee, ATM
+          transaction fee, etc. The app also provides info on ATMs’ transaction
+          / withdrawal limits. <br /><br />The app does not provide information
+          on potential charges by the card holder’s issuing bank, currency
+          conversion charges, etc.</small
+        >
+      </div>
     </div>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
