@@ -12,9 +12,12 @@ h5,
 h6 {
   font-family: var(--primary-font);
 }
+h1 {
+  display: inline;
+}
 
-.border {
-  border: #000;
+.bg-dark {
+  background-color: #fff !important;
 }
 
 .logo {
@@ -26,10 +29,19 @@ h6 {
 }
 
 h4 {
+  font-size: 38px;
   color: #fff;
 }
 .main-text {
   box-shadow: 0px 5px 5px rgb(176, 174, 170);
+}
+
+.text-center strong {
+  font-size: 20px;
+}
+
+.text-center p {
+  font-size: 16px;
 }
 .nav-link,
 active {
@@ -41,17 +53,35 @@ active {
   width: 25%;
   height: auto;
 }
-.table-header {
-  font-size: 15px;
-}
-.opacity-75 {
-  font-weight: 12px;
-  font-size: 12px;
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 80%;
+  border: 2px solid #64b49c;
 }
 
+th,
+td {
+  text-align: center;
+  padding: 5px;
+}
+td {
+  opacity: 75%;
+}
+table {
+  margin-top: 30px;
+  margin-left: 40px;
+}
 .main-pic {
+  display: block;
+  margin: auto;
   max-height: 400px;
-  padding-left: 200px;
+  transition: all 80ms ease-out;
+}
+
+.main-pic:hover {
+  transform: scale(1.1);
 }
 .small-info {
   padding-bottom: 10px;
@@ -60,4 +90,10 @@ footer {
   background-color: var(--primary-color);
   margin: 0;
   padding: 10px 0;
+}
+
+th,
+tr,
+tbody {
+  text-decoration: none !important;
 }
