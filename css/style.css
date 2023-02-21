@@ -1,5 +1,5 @@
 :root {
-  --primary-font: "Bree Serif", serif;
+  --primary-font: "Fjalla One", sans-serif;
   --secondary-font: "Poppins", sans-serif;
   --primary-color: #64b49c;
 }
@@ -13,6 +13,7 @@ h6 {
   font-family: var(--primary-font);
 }
 h1 {
+  font-size: 25px;
   display: inline;
 }
 
@@ -43,6 +44,10 @@ h4 {
 .text-center p {
   font-size: 16px;
 }
+
+.nav-link {
+  font-size: 16px;
+}
 .nav-link,
 active {
   color: var(--primary-color);
@@ -57,13 +62,15 @@ active {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 80%;
+  width: 70%;
   border: 2px solid #64b49c;
 }
-
+th {
+  color: #56a394;
+}
 th,
 td {
-  text-align: center;
+  text-align: left;
   padding: 5px;
 }
 td {
@@ -83,7 +90,7 @@ table {
 .main-pic:hover {
   transform: scale(1.1);
 }
-.small-info {
+*/ .small-info {
   padding-bottom: 10px;
 }
 footer {
@@ -91,9 +98,15 @@ footer {
   margin: 0;
   padding: 10px 0;
 }
-
+footer p {
+  font-size: 15px;
+}
 th,
 tr,
 tbody {
   text-decoration: none !important;
+}
+
+p {
+  font-size: 18px;
 }
