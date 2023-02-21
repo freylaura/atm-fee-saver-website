@@ -60,7 +60,8 @@ active {
 }
 
 table {
-  padding-left: 220px;
+  padding: 0.5rem 2.5rem !important;
+
   border-collapse: collapse;
   border-spacing: 0;
   border: none;
