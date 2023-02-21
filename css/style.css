@@ -60,26 +60,19 @@ active {
 }
 
 table {
+  padding-left: 220px;
   border-collapse: collapse;
   border-spacing: 0;
-  width: 70%;
-  border: 2px solid #64b49c;
+  border: none;
 }
 th {
   color: #56a394;
 }
-th,
-td {
-  text-align: left;
-  padding: 5px;
-}
+
 td {
   opacity: 75%;
 }
-table {
-  margin-top: 30px;
-  margin-left: 40px;
-}
+
 .main-pic {
   display: block;
   margin: auto;
@@ -90,9 +83,7 @@ table {
 .main-pic:hover {
   transform: scale(1.1);
 }
-*/ .small-info {
-  padding-bottom: 10px;
-}
+
 footer {
   background-color: var(--primary-color);
   margin: 0;
@@ -100,6 +91,9 @@ footer {
 }
 footer p {
   font-size: 15px;
+}
+footer img {
+  padding-left: 10px;
 }
 th,
 tr,
