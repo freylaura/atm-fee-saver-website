@@ -58,7 +58,14 @@ active {
 .apple {
   max-width: 15%;
   margin-left: 10px;
-  border-radius: 4px 4px 4px 4px;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0px 5px 5px rgb(96, 95, 93);
+  transition: all 150ms ease-in-out;
+}
+
+.apple:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 table {
   table-layout: fixed;
@@ -112,12 +119,6 @@ footer p {
 footer img {
   padding-left: 10px;
 }
-
-/*th,
-tr,
-tbody {
-  text-decoration: none !important;
-}*/
 
 p {
   font-size: 18px;
