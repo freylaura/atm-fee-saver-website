@@ -13,7 +13,8 @@ h6 {
   font-family: var(--primary-font);
 }
 h1 {
-  font-size: 25px;
+  font-size: 35px;
+  font-style: bold;
   display: inline;
 }
 
@@ -23,6 +24,10 @@ h1 {
 
 .logo {
   max-height: 100px;
+}
+.logo:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
 }
 
 .main-text {
@@ -37,37 +42,28 @@ h4 {
   box-shadow: 0px 5px 5px rgb(176, 174, 170);
 }
 
-.text-center strong {
-  font-size: 20px;
-}
-
 .text-center p {
   font-size: 16px;
 }
 
 .nav-link {
-  font-size: 16px;
+  font-size: 20px;
 }
 .nav-link,
 active {
   color: var(--primary-color);
   transition: all 100ms ease in out;
 }
-.apple-pic,
-.google-pic {
-  width: 25%;
-  height: auto;
+
+.apple {
+  max-width: 15%;
+  margin-left: 10px;
+  border-radius: 4px 4px 4px 4px;
 }
 
-table {
-  padding: 0.5rem 2.5rem !important;
-
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: none;
-}
 th {
   color: #56a394;
+  font-size: 18px;
 }
 
 td {
@@ -96,16 +92,38 @@ footer p {
 footer img {
   padding-left: 10px;
 }
-th,
+
+/*th,
 tr,
 tbody {
   text-decoration: none !important;
-}
+}*/
 
 p {
   font-size: 18px;
 }
+strong {
+  font-size: 22px;
+}
 
 .about-us-text {
   margin: 30px 100px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .small-info {
+    font-size: 13px;
+  }
+
+  .apple {
+    max-width: 40%;
+  }
+}
+
+table {
+  font-size: 15px;
 }
