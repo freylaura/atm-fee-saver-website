@@ -128,7 +128,7 @@ strong {
   font-size: 22px;
 }
 
-.about-us-text {
+.content {
   margin: 30px 100px;
 }
 
@@ -156,7 +156,8 @@ footer .policyAndTermsLinks:hover {
     max-width: 40%;
   }
 
-  .about-us-text {
-    margin: 0 0 0 5px;
+  .content {
+    margin: 0 0 0 10px;
+    font-size: 14px;
   }
 }
