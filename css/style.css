@@ -176,6 +176,10 @@ footer .policyAndTermsLinks:hover {
   border-right: 2px solid var(--primary-color);
 }
 
+.fa-github {
+  color: #fff;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 20px;
