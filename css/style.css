@@ -48,7 +48,7 @@ h4 {
 }
 
 .nav-link {
-  font-size: 20px;
+  font-size: 22px;
 }
 .nav-link,
 active {
@@ -154,5 +154,9 @@ footer .policyAndTermsLinks:hover {
 
   .apple {
     max-width: 40%;
+  }
+
+  .about-us-text {
+    margin: 0 0 0 5px;
   }
 }
