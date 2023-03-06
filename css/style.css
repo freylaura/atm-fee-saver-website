@@ -74,7 +74,8 @@ table {
   width: 100%;
   padding: 30px;
   border-collapse: collapse;
-  border-left: 2px solid #56a394;
+  /*border-left: 2px solid #56a394;*/
+  box-shadow: 5px 0 15px -4px #56a394, -5px 0 8px -4px #56a394;
 }
 
 th:nth-child(1) {
