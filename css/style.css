@@ -146,6 +146,25 @@ footer .policyAndTermsLinks:hover {
 
 .color {
   color: var(--primary-color);
+  font-size: 22px;
+}
+
+.fa-regular {
+  font-weight: 200px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: #000;
+  transition: all 200ms ease-in-out;
+}
+
+.email-link:hover {
+  color: var(--primary-color);
+}
+
+.no-content {
+  height: 160px;
 }
 @media (max-width: 900px) {
   h1 {
