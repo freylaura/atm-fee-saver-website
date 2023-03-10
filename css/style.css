@@ -171,6 +171,7 @@ footer .policyAndTermsLinks:hover {
 }
 
 .email-link {
+  font-size: 16px;
   text-decoration: none;
   color: #000;
   transition: all 200ms ease-in-out;
@@ -180,22 +181,23 @@ footer .policyAndTermsLinks:hover {
   color: var(--primary-color);
 }
 
-.no-content {
-  height: 150px;
-}
 .contentContact {
+  font-size: 18px;
   margin-top: 30px;
   margin-left: 100px;
   margin-bottom: 80px;
 }
-
-/*.tryTest {
-  border-right: 2px solid var(--primary-color);
-}*/
+.hero {
+  margin-bottom: 150px;
+}
 
 @media (max-width: 900px) {
   h1 {
     font-size: 20px;
+  }
+
+  strong {
+    font-size: 18px;
   }
 
   .small-info {
@@ -209,5 +211,9 @@ footer .policyAndTermsLinks:hover {
   .content {
     margin: 0 0 0 10px;
     font-size: 14px;
+  }
+
+  .contentContact {
+    margin: 0 0 40px 10px;
   }
 }
