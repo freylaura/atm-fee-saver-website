@@ -74,7 +74,6 @@ table {
   width: 100%;
   padding: 30px;
   border-collapse: collapse;
-  /*border-left: 2px solid #56a394;*/
   box-shadow: 5px 0 15px -4px #9cbcb5, -5px 0 8px -4px #9cbcb5;
 }
 
@@ -180,11 +179,12 @@ footer .policyAndTermsLinks:hover {
   font-size: 16px;
   text-decoration: none;
   color: #000;
-  transition: all 200ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
 .email-link:hover {
   color: var(--primary-color);
+  font-size: 22px;
 }
 
 .contentContact {
@@ -197,6 +197,9 @@ footer .policyAndTermsLinks:hover {
   margin-bottom: 150px;
 }
 
+.contactHover {
+  border-right: 2px solid var(--primary-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 20px;
