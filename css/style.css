@@ -197,7 +197,7 @@ footer .policyAndTermsLinks:hover {
   margin-bottom: 150px;
 }
 
-.contactHover {
+.contactBorder {
   border-right: 2px solid var(--primary-color);
 }
 @media (max-width: 900px) {
@@ -224,5 +224,10 @@ footer .policyAndTermsLinks:hover {
 
   .contentContact {
     margin: 0 0 40px 10px;
+  }
+
+  .contactBorder {
+    border: none;
+    margin-bottom: 30px;
   }
 }
