@@ -103,11 +103,13 @@ td {
   display: block;
   margin: auto;
   max-height: 450px;
-  transition: all 80ms ease-out;
+  transition: all 250ms ease-out;
+  border-radius: 27px;
 }
 
 .main-pic:hover {
   transform: scale(1.1);
+  box-shadow: 5px 5px 5px #b8e6d8;
 }
 
 footer {
