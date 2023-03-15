@@ -108,7 +108,7 @@ td {
 
 .main-pic:hover {
   transform: scale(1.1);
-  box-shadow: 5px 5px 5px #b8e6d8;
+  box-shadow: 2px 3px 3px #b8e6d8;
 }
 
 footer {
